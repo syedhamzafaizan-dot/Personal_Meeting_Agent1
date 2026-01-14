@@ -1,0 +1,42 @@
+[
+  {
+    "to": "emily.carter@example.com",
+    "to_name": "Emily",
+    "subject": "Follow-up: Your Action Items from Our Meeting",
+    "body": "Hi Emily,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Create a rollout one-pager for support and sales**  \n  **Deadline:** January 16, 2026  \n  *[03:45] You mentioned the need for this, and James asked if someone could take ownership by next Friday.*\n\nPlease let me know if you have any questions or need any assistance as you work on this. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+    "triggered_at": "2026-01-12T00:27:07.374582",
+    "status": "simulated"
+  },
+  {
+    "to": "isabella.moore@example.com",
+    "to_name": "Isabella",
+    "subject": "Follow-up: Your Action Items from Our Meeting",
+    "body": "Hi Isabella,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting:\n\n1. **Review messaging once draft is ready**  \n   - **Deadline:** No deadline specified\n\nPlease let me know if you have any questions or need further clarification on this task. I'm here to help!\n\nLooking forward to your feedback once the draft is ready.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+    "triggered_at": "2026-01-12T00:27:07.377983",
+    "status": "simulated"
+  },
+  {
+    "to": "daniel.brown@example.com",
+    "to_name": "Daniel",
+    "subject": "Follow-up: Your Action Items from Meeting",
+    "body": "Hi Daniel,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Define analytics events**  \n  **Deadline:** January 16, 2026  \n  *As discussed, please ensure that these are defined by the end of the week.*\n\nIf you have any questions or need further clarification, feel free to reach out. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+    "triggered_at": "2026-01-12T00:27:07.379612",
+    "status": "simulated"
+  },
+  {
+    "to": "emma.davis@example.com",
+    "to_name": "Emma",
+    "subject": "Follow-up: Your Action Items from Our Meeting",
+    "body": "Hi Emma,\n\nI hope this message finds you well! I wanted to follow up on our recent meeting and outline your action items:\n\n1. **Define analytics events if backend fields are known.**  \n   - **Deadline:** No deadline specified.\n\nPlease let me know if you have any questions or need further clarification on this task. I'm here to help!\n\nLooking forward to your updates.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+    "triggered_at": "2026-01-12T00:27:07.380217",
+    "status": "simulated"
+  },
+  {
+    "to": "henry.thompson@example.com",
+    "to_name": "Henry",
+    "subject": "Follow-up: Your Action Items from Our Meeting",
+    "body": "Hi Henry,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Conduct an initial security review**  \n  **Deadline:** January 12, 2026  \n  *Note: You mentioned you would do an initial pass next week.*\n\nIf you have any questions or need further clarification, please feel free to reach out. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+    "triggered_at": "2026-01-12T00:27:07.380746",
+    "status": "simulated"
+  }
+]

@@ -1,0 +1,24 @@
+[00:00] James: Post-incident review for yesterday's payment failures.
+[00:30] Sophia: Primary issue was a retry storm after partial timeout.
+[01:00] Daniel: DB connection pool was exhausted shortly after retries spiked.
+[01:30] Michael: So retries triggered DB pressure?
+[01:50] Sophia: Yes, retries amplified the issue.
+[02:20] James: Logs were missing during the peak—why?
+[02:45] Daniel: Logging service crashed under load.
+[03:10] Sophia: We had no alert for missing logs.
+[03:40] James: Action items—fix retry policy and add log alerts.
+[04:10] Sophia: I'll update retry and backoff config by tomorrow EOD.
+[04:40] Daniel: I'll add alerts for missing logs by Monday.
+[05:10] James: Who contacts the payment vendor about outage credits?
+[05:40] (silence)
+[06:00] James: Okay, I'll take it, but remind me if I forget.
+[06:30] Henry: Security note—we should review retry logic for abuse risk.
+[07:00] Michael: Good call, but probably next sprint.
+[07:30] Sophia: Decision: keep circuit breaker enabled permanently.
+[08:00] Emma: Do we need post-incident metrics for reporting?
+[08:25] James: Yes, but let's add to backlog.
+[08:50] Daniel: Risk—we still don't load-test payment workers.
+[09:20] Michael: If no owner, backlog it.
+[09:45] James: Agreed. Any other issues?
+[10:10] Sophia: None from SRE.
+[10:30] James: Okay, wrapping up.

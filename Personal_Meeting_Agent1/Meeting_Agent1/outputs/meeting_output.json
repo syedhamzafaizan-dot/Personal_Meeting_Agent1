@@ -1,0 +1,192 @@
+{
+  "meeting_summary": "MEETING ANALYSIS SUMMARY\n============================================================\nReference Date: 2026-01-10\n\nACTION ITEMS (5)\n------------------------------------------------------------\n\n[action_1] Create a rollout one-pager for support and sales.\n  Owner: Emily (emily.carter@example.com)\n  Deadline: 2026-01-16\n\n[action_2] Review messaging once draft is ready.\n  Owner: Isabella (isabella.moore@example.com)\n  Deadline: None\n  ⚠️  NEEDS REVIEW: [HIGH] Missing deadline makes it unclear when the review should occur.\n\n[action_3] Define analytics events.\n  Owner: Daniel (daniel.brown@example.com)\n  Deadline: 2026-01-16\n\n[action_4] Define analytics events if backend fields are known.\n  Owner: Emma (emma.davis@example.com)\n  Deadline: None\n  ⚠️  NEEDS REVIEW: [HIGH] Missing deadline makes it unclear when the action should be completed.\n\n[action_5] Conduct an initial security review.\n  Owner: Henry (henry.thompson@example.com)\n  Deadline: 2026-01-12\n\n\nDECISIONS (1)\n------------------------------------------------------------\n\n[decision_1] Ship CSV export behind a feature flag.\n  Made by: James\n\n\nRISKS & OPEN QUESTIONS (3)\n------------------------------------------------------------\n\n[risk_1] Security review needed before enabling flag for all users.\n  Category: risk\n  Mentioned by: Henry\n\n[risk_2] Do we need export limits?\n  Category: open_question\n  Mentioned by: William\n\n[risk_3] Rate limiting might be needed.\n  Category: risk\n  Mentioned by: Sophia",
+  "action_items": [
+    {
+      "id": "action_1",
+      "description": "Create a rollout one-pager for support and sales.",
+      "owner_name": "Emily",
+      "owner_email": "emily.carter@example.com",
+      "owner_role": "Product Designer",
+      "deadline_text": "by next Friday",
+      "deadline_date": "2026-01-16",
+      "evidence": [
+        "[03:45] Emily: We need a rollout one-pager for support and sales.",
+        "[04:10] James: Can someone own that by next Friday?"
+      ],
+      "confidence": 1.0,
+      "needs_review": false,
+      "validation_notes": []
+    },
+    {
+      "id": "action_2",
+      "description": "Review messaging once draft is ready.",
+      "owner_name": "Isabella",
+      "owner_email": "isabella.moore@example.com",
+      "owner_role": "Customer Support Lead",
+      "deadline_text": null,
+      "deadline_date": null,
+      "evidence": [
+        "[05:00] Isabella: I'll review messaging once draft is ready."
+      ],
+      "confidence": 1.0,
+      "needs_review": true,
+      "validation_notes": [
+        "[HIGH] Missing deadline makes it unclear when the review should occur."
+      ]
+    },
+    {
+      "id": "action_3",
+      "description": "Define analytics events.",
+      "owner_name": "Daniel",
+      "owner_email": "daniel.brown@example.com",
+      "owner_role": "QA Engineer",
+      "deadline_text": "by end of week",
+      "deadline_date": "2026-01-16",
+      "evidence": [
+        "[05:30] Daniel: Analytics events should be defined by end of week."
+      ],
+      "confidence": 1.0,
+      "needs_review": false,
+      "validation_notes": [
+        "[MEDIUM] Potential dependency on action_4, as defining analytics events may rely on backend fields being known."
+      ]
+    },
+    {
+      "id": "action_4",
+      "description": "Define analytics events if backend fields are known.",
+      "owner_name": "Emma",
+      "owner_email": "emma.davis@example.com",
+      "owner_role": "Data Analyst",
+      "deadline_text": null,
+      "deadline_date": null,
+      "evidence": [
+        "[06:00] Emma: I can define events if backend fields are known."
+      ],
+      "confidence": 1.0,
+      "needs_review": true,
+      "validation_notes": [
+        "[HIGH] Missing deadline makes it unclear when the action should be completed."
+      ]
+    },
+    {
+      "id": "action_5",
+      "description": "Conduct an initial security review.",
+      "owner_name": "Henry",
+      "owner_email": "henry.thompson@example.com",
+      "owner_role": "Security Engineer",
+      "deadline_text": "next week",
+      "deadline_date": "2026-01-12",
+      "evidence": [
+        "[08:20] Henry: I'll do an initial pass next week."
+      ],
+      "confidence": 1.0,
+      "needs_review": false,
+      "validation_notes": [
+        "[MEDIUM] Action_5's deadline is before action_1 and action_3, which may require their completion first."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision_1",
+      "description": "Ship CSV export behind a feature flag.",
+      "made_by": "James",
+      "evidence": [
+        "[03:15] James: Decision: ship CSV export behind a feature flag."
+      ],
+      "timestamp": "[03:15]"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk_1",
+      "description": "Security review needed before enabling flag for all users.",
+      "category": "risk",
+      "mentioned_by": "Henry",
+      "evidence": [
+        "[07:00] Henry: Security review needed before enabling flag for all users."
+      ],
+      "timestamp": "[07:00]"
+    },
+    {
+      "id": "risk_2",
+      "description": "Do we need export limits?",
+      "category": "open_question",
+      "mentioned_by": "William",
+      "evidence": [
+        "[08:50] William: Do we need export limits?"
+      ],
+      "timestamp": "[08:50]"
+    },
+    {
+      "id": "risk_3",
+      "description": "Rate limiting might be needed.",
+      "category": "risk",
+      "mentioned_by": "Sophia",
+      "evidence": [
+        "[09:10] Sophia: Rate limiting might be needed."
+      ],
+      "timestamp": "[09:10]"
+    }
+  ],
+  "follow_up_messages": [
+    {
+      "to_email": "emily.carter@example.com",
+      "to_name": "Emily",
+      "subject": "Follow-up: Your Action Items from Our Meeting",
+      "body": "Hi Emily,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Create a rollout one-pager for support and sales**  \n  **Deadline:** January 16, 2026  \n  *[03:45] You mentioned the need for this, and James asked if someone could take ownership by next Friday.*\n\nPlease let me know if you have any questions or need any assistance as you work on this. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+      "action_items": [
+        "action_1"
+      ]
+    },
+    {
+      "to_email": "isabella.moore@example.com",
+      "to_name": "Isabella",
+      "subject": "Follow-up: Your Action Items from Our Meeting",
+      "body": "Hi Isabella,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting:\n\n1. **Review messaging once draft is ready**  \n   - **Deadline:** No deadline specified\n\nPlease let me know if you have any questions or need further clarification on this task. I'm here to help!\n\nLooking forward to your feedback once the draft is ready.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+      "action_items": [
+        "action_2"
+      ]
+    },
+    {
+      "to_email": "daniel.brown@example.com",
+      "to_name": "Daniel",
+      "subject": "Follow-up: Your Action Items from Meeting",
+      "body": "Hi Daniel,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Define analytics events**  \n  **Deadline:** January 16, 2026  \n  *As discussed, please ensure that these are defined by the end of the week.*\n\nIf you have any questions or need further clarification, feel free to reach out. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+      "action_items": [
+        "action_3"
+      ]
+    },
+    {
+      "to_email": "emma.davis@example.com",
+      "to_name": "Emma",
+      "subject": "Follow-up: Your Action Items from Our Meeting",
+      "body": "Hi Emma,\n\nI hope this message finds you well! I wanted to follow up on our recent meeting and outline your action items:\n\n1. **Define analytics events if backend fields are known.**  \n   - **Deadline:** No deadline specified.\n\nPlease let me know if you have any questions or need further clarification on this task. I'm here to help!\n\nLooking forward to your updates.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+      "action_items": [
+        "action_4"
+      ]
+    },
+    {
+      "to_email": "henry.thompson@example.com",
+      "to_name": "Henry",
+      "subject": "Follow-up: Your Action Items from Our Meeting",
+      "body": "Hi Henry,\n\nI hope this message finds you well! I wanted to follow up on your action items from our recent meeting. Here’s a quick summary:\n\n- **Conduct an initial security review**  \n  **Deadline:** January 12, 2026  \n  *Note: You mentioned you would do an initial pass next week.*\n\nIf you have any questions or need further clarification, please feel free to reach out. I'm here to help!\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]",
+      "action_items": [
+        "action_5"
+      ]
+    }
+  ],
+  "metadata": {
+    "reference_date": "2026-01-10",
+    "processing_notes": [
+      "Stage 1: Extracted 5 actions, 1 decisions, 3 risks",
+      "Stage 2: Found 5 exact matches",
+      "Stage 2: No unresolved owners",
+      "Stage 3: Resolved 3 deadlines deterministically",
+      "Stage 4: Validated 5 actions, 0 need review",
+      "Stage 5: Generated 5 follow-up messages",
+      "Stage 6: Simulated 5 email triggers"
+    ],
+    "timestamp": "2026-01-12T00:27:07.385218"
+  }
+}

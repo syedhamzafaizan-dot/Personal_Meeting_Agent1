@@ -1,0 +1,51 @@
+MEETING ANALYSIS SUMMARY
+============================================================
+Reference Date: 2026-01-10
+
+ACTION ITEMS (5)
+------------------------------------------------------------
+
+[action_1] Create a rollout one-pager for support and sales.
+  Owner: Emily (emily.carter@example.com)
+  Deadline: 2026-01-16
+
+[action_2] Review messaging once draft is ready.
+  Owner: Isabella (isabella.moore@example.com)
+  Deadline: None
+  ⚠️  NEEDS REVIEW: [HIGH] Missing deadline makes it unclear when the review should occur.
+
+[action_3] Define analytics events.
+  Owner: Daniel (daniel.brown@example.com)
+  Deadline: 2026-01-16
+
+[action_4] Define analytics events if backend fields are known.
+  Owner: Emma (emma.davis@example.com)
+  Deadline: None
+  ⚠️  NEEDS REVIEW: [HIGH] Missing deadline makes it unclear when the action should be completed.
+
+[action_5] Conduct an initial security review.
+  Owner: Henry (henry.thompson@example.com)
+  Deadline: 2026-01-12
+
+
+DECISIONS (1)
+------------------------------------------------------------
+
+[decision_1] Ship CSV export behind a feature flag.
+  Made by: James
+
+
+RISKS & OPEN QUESTIONS (3)
+------------------------------------------------------------
+
+[risk_1] Security review needed before enabling flag for all users.
+  Category: risk
+  Mentioned by: Henry
+
+[risk_2] Do we need export limits?
+  Category: open_question
+  Mentioned by: William
+
+[risk_3] Rate limiting might be needed.
+  Category: risk
+  Mentioned by: Sophia
